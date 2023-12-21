@@ -38,8 +38,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/king_of_izzy")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/king_of_izzy")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/tamil_friends_chating")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/tamil_friends_chating")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -47,7 +47,7 @@ AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 # Get this credentials from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "5b6fdf72afe2412f9fa9555fe68c6b98")
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "6d53dd42aa44415ca7219e5cc411f3d2*)
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "6d53dd42aa44415ca7219e5cc411f3d2")
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
